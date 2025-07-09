@@ -23,5 +23,5 @@ for bam_file in "$ALIGNMENT_DIR"/*_sorted.bam; do
         echo "samtools coverage not available" > "$ALIGNMENT_DIR/${sample_name}_coverage.txt"
     fi
 done
-
+ 
 echo "Alignment quality analysis completed for all samples."
